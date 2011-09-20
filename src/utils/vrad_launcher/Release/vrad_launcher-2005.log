@@ -1,0 +1,36 @@
+﻿Build started 20/09/2011 09:35:10.
+     1>Project "D:\Protocol 7\src\utils\vrad_launcher\vrad_launcher-2005.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\Vrad_launcher.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         if EXIST ..\..\..\bin\Vrad_launcher.exe for /f "delims=" %%A in ('attrib "..\..\..\bin\Vrad_launcher.exe"') do set valveTmpIsReadOnly="%%A"
+         set valveTmpIsReadOnlyLetter=%valveTmpIsReadOnly:~6,1%
+         if "%valveTmpIsReadOnlyLetter%"=="R" del /q "D:\Protocol 7\src\utils\vrad_launcher\Release\"Vrad_launcher.exe
+         set path=..\..\..\bin;%path%
+         if exist ..\..\devtools\bin\vpc.exe ..\..\devtools\bin\vpc.exe -crc vrad_launcher.vpc e4ce428c -crc ..\..\vpc_scripts\source_exe_con_win32_base.vpc 588645a5 -crc ..\..\vpc_scripts\source_exe_win_win32_base.vpc 62638c47 -crc ..\..\vpc_scripts\version.vpc 26d8e8a7 -crc ..\..\vpc_scripts\loadaddress.vpc 49fd4a9f -crc ..\..\vpc_scripts\source_exe_win_win32_debug.vpc 78028684 -crc ..\..\vpc_scripts\source_exe_win_win32_release.vpc cb5c1854
+         
+         :VCEnd
+       ClCompile:
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Yc"StdAfx.h" /Fp"Debug/vrad_launcher.pch" /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Yu"StdAfx.h" /Fp"Debug/vrad_launcher.pch" /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt vrad_launcher.cpp
+         vrad_launcher.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\Protocol 7\src\utils\vrad_launcher\.\Release\Vrad_launcher.exe) does not match the Linker's OutputFile property value (D:\Protocol 7\src\utils\vrad_launcher\Release\vrad.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Vrad_launcher) does not match the Linker's OutputFile property value (vrad). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         d:\Programs\Visual C++\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\vrad.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmtd /MANIFEST:NO /DEBUG /PDB:".\Release\Vrad_launcher.pdb" /MAP:".\Release\Vrad_launcher.map" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\Vrad_launcher.lib" /MACHINE:X86 .\Release\stdafx.obj
+         .\Release\vrad_launcher.obj
+         ..\..\lib\public\tier0.lib
+         ..\..\lib\public\tier1.lib
+         ..\..\lib\public\vstdlib.lib
+         "D:\Protocol 7\src\lib\public\tier1.lib"
+            Creating library .\Release\Vrad_launcher.lib and object .\Release\Vrad_launcher.exp
+         vrad_launcher-2005.vcxproj -> D:\Protocol 7\src\utils\vrad_launcher\.\Release\Vrad_launcher.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Release\Vrad_launcher.unsuccessfulbuild".
+         Touching ".\Release\Vrad_launcher.lastbuildstate".
+     1>Done Building Project "D:\Protocol 7\src\utils\vrad_launcher\vrad_launcher-2005.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.33

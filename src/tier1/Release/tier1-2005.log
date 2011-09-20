@@ -1,0 +1,75 @@
+﻿Build started 20/09/2011 09:34:43.
+     1>Project "D:\Protocol 7\src\tier1\tier1-2005.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\tier1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\common /I..\public /I..\public\tier0 /I..\public\tier1 /Z7 /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D TIER1_STATIC_LIB /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bitbuf.cpp byteswap.cpp characterset.cpp checksum_crc.cpp checksum_md5.cpp commandbuffer.cpp convar.cpp datamanager.cpp diff.cpp generichash.cpp interface.cpp KeyValues.cpp mempool.cpp memstack.cpp NetAdr.cpp newbitbuf.cpp rangecheckedvar.cpp stringpool.cpp strtools.cpp tier1.cpp tokenreader.cpp uniqueid.cpp utlbuffer.cpp utlbufferutil.cpp utlstring.cpp utlsymbol.cpp
+         bitbuf.cpp
+         byteswap.cpp
+         characterset.cpp
+         checksum_crc.cpp
+         checksum_md5.cpp
+         commandbuffer.cpp
+         convar.cpp
+         datamanager.cpp
+         diff.cpp
+         generichash.cpp
+         interface.cpp
+         KeyValues.cpp
+         mempool.cpp
+         memstack.cpp
+         NetAdr.cpp
+         newbitbuf.cpp
+         rangecheckedvar.cpp
+         stringpool.cpp
+         strtools.cpp
+         tier1.cpp
+         Generating Code...
+         Compiling...
+         tokenreader.cpp
+         uniqueid.cpp
+         utlbuffer.cpp
+         utlbufferutil.cpp
+         utlstring.cpp
+         utlsymbol.cpp
+         Generating Code...
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\common /I..\public /I..\public\tier0 /I..\public\tier1 /Z7 /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D TIER1_STATIC_LIB /D _MBCS /GF /Gm- /EHsc /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt processor_detect.cpp
+         processor_detect.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\Protocol 7\src\tier1\.\Release\tier1.lib) does not match the Library's OutputFile property value (D:\Protocol 7\src\lib\public\tier1.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         d:\Programs\Visual C++\VC\bin\Lib.exe /OUT:"..\lib\public\tier1.lib" Rpcrt4.lib /NOLOGO .\Release\bitbuf.obj
+         .\Release\byteswap.obj
+         .\Release\characterset.obj
+         .\Release\checksum_crc.obj
+         .\Release\checksum_md5.obj
+         .\Release\commandbuffer.obj
+         .\Release\convar.obj
+         .\Release\datamanager.obj
+         .\Release\diff.obj
+         .\Release\generichash.obj
+         .\Release\interface.obj
+         .\Release\KeyValues.obj
+         .\Release\mempool.obj
+         .\Release\memstack.obj
+         .\Release\NetAdr.obj
+         .\Release\newbitbuf.obj
+         .\Release\processor_detect.obj
+         .\Release\rangecheckedvar.obj
+         .\Release\stringpool.obj
+         .\Release\strtools.obj
+         .\Release\tier1.obj
+         .\Release\tokenreader.obj
+         .\Release\uniqueid.obj
+         .\Release\utlbuffer.obj
+         .\Release\utlbufferutil.obj
+         .\Release\utlstring.obj
+         .\Release\utlsymbol.obj
+         tier1-2005.vcxproj -> D:\Protocol 7\src\tier1\.\Release\tier1.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Release\tier1.unsuccessfulbuild".
+         Touching ".\Release\tier1.lastbuildstate".
+     1>Done Building Project "D:\Protocol 7\src\tier1\tier1-2005.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.88

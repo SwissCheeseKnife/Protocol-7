@@ -1,0 +1,13 @@
+﻿Build started 20/09/2011 09:35:03.
+     1>Project "D:\Protocol 7\src\utils\qc_eyes\QC_Eyes-2005.vcxproj" on node 8 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\QC_Eyes.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /GF /Gm- /EHsc /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Yc"StdAfx.h" /Fp"Debug/QC_Eyes.pch" /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>d:\protocol 7\src\utils\qc_eyes\stdafx.h(15): fatal error C1083: Cannot open include file: 'afxwin.h': No such file or directory
+     1>Done Building Project "D:\Protocol 7\src\utils\qc_eyes\QC_Eyes-2005.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.32

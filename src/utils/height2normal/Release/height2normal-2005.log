@@ -1,0 +1,27 @@
+﻿Build started 20/09/2011 09:35:13.
+     1>Project "D:\Protocol 7\src\utils\height2normal\height2normal-2005.vcxproj" on node 9 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\Height2normal.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\common /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D _DEBUG /D _WIN32 /D _CONSOLE /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt height2normal.cpp
+         height2normal.cpp
+       Link:
+         d:\Programs\Visual C++\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\height2normal.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmtd /MANIFEST:NO /DEBUG /PDB:".\Release\Height2normal.pdb" /MAP:".\Release\Height2normal.map" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\Height2normal.lib" /MACHINE:X86 .\Release\height2normal.obj
+         ..\..\lib\public\bitmap.lib
+         ..\..\lib\public\mathlib.lib
+         ..\..\lib\public\tier0.lib
+         ..\..\lib\public\tier1.lib
+         ..\..\lib\public\tier2.lib
+         ..\..\lib\public\vstdlib.lib
+         "D:\Protocol 7\src\lib\public\mathlib.lib"
+         "D:\Protocol 7\src\lib\public\tier1.lib"
+            Creating library .\Release\Height2normal.lib and object .\Release\Height2normal.exp
+         height2normal-2005.vcxproj -> D:\Protocol 7\src\utils\height2normal\.\Release\Height2normal.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Release\Height2normal.unsuccessfulbuild".
+         Touching ".\Release\Height2normal.lastbuildstate".
+     1>Done Building Project "D:\Protocol 7\src\utils\height2normal\height2normal-2005.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.13

@@ -1,0 +1,31 @@
+﻿Build started 20/09/2011 09:35:08.
+     1>Project "D:\Protocol 7\src\utils\vtf2tga\vtf2tga-2005.vcxproj" on node 8 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\Vtf2tga.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\public\tier0\memoverride.cpp vtf2tga.cpp
+         memoverride.cpp
+         vtf2tga.cpp
+         Generating Code...
+       Link:
+         d:\Programs\Visual C++\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\vtf2tga.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmtd /MANIFEST:NO /DEBUG /PDB:".\Release\Vtf2tga.pdb" /MAP:".\Release\Vtf2tga.map" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\Vtf2tga.lib" /MACHINE:X86 .\Release\memoverride.obj
+         .\Release\vtf2tga.obj
+         ..\..\lib\public\bitmap.lib
+         ..\..\lib\public\mathlib.lib
+         ..\..\lib\public\tier0.lib
+         ..\..\lib\public\tier1.lib
+         ..\..\lib\public\tier2.lib
+         ..\..\lib\public\vstdlib.lib
+         ..\..\lib\public\vtf.lib
+         "D:\Protocol 7\src\lib\public\mathlib.lib"
+         "D:\Protocol 7\src\lib\public\tier1.lib"
+            Creating library .\Release\Vtf2tga.lib and object .\Release\Vtf2tga.exp
+         vtf2tga-2005.vcxproj -> D:\Protocol 7\src\utils\vtf2tga\.\Release\Vtf2tga.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Release\Vtf2tga.unsuccessfulbuild".
+         Touching ".\Release\Vtf2tga.lastbuildstate".
+     1>Done Building Project "D:\Protocol 7\src\utils\vtf2tga\vtf2tga-2005.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.16

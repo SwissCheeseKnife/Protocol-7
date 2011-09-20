@@ -1,0 +1,143 @@
+﻿Build started 20/09/2011 09:34:43.
+     1>Project "D:\Protocol 7\src\utils\xwad\xwad-2005.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\xwad.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt goldsrc_standin.cpp lbmlib.cpp wadlib.cpp xwad.cpp
+         goldsrc_standin.cpp
+     1>goldsrc_standin.cpp(143): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>goldsrc_standin.cpp(146): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(157) : see declaration of 'strerror'
+     1>goldsrc_standin.cpp(155): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>goldsrc_standin.cpp(158): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(157) : see declaration of 'strerror'
+         lbmlib.cpp
+     1>lbmlib.cpp(257): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\STDIO.H(234) : see declaration of 'fopen'
+     1>lbmlib.cpp(376): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\STDIO.H(234) : see declaration of 'fopen'
+         wadlib.cpp
+     1>wadlib.cpp(289): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>wadlib.cpp(290): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(252) : see declaration of 'strupr'
+         xwad.cpp
+     1>xwad.cpp(103): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\Programs\Visual C++\VC\include\conio.h(128) : see declaration of 'getch'
+     1>xwad.cpp(314): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>xwad.cpp(394): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>xwad.cpp(396): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>xwad.cpp(419): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>xwad.cpp(431): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>xwad.cpp(433): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>xwad.cpp(470): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>xwad.cpp(472): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>xwad.cpp(484): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>xwad.cpp(486): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>xwad.cpp(511): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>xwad.cpp(512): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putenv. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdlib.h(869) : see declaration of 'putenv'
+     1>xwad.cpp(516): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>xwad.cpp(540): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>xwad.cpp(578): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>xwad.cpp(579): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>xwad.cpp(610): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>xwad.cpp(677): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>xwad.cpp(771): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>xwad.cpp(827): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>xwad.cpp(865): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>xwad.cpp(867): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>xwad.cpp(889): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>xwad.cpp(890): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>xwad.cpp(928): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>xwad.cpp(947): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>xwad.cpp(948): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(252) : see declaration of 'strupr'
+     1>xwad.cpp(1019): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>xwad.cpp(1039): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>xwad.cpp(1044): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>xwad.cpp(1049): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>xwad.cpp(1054): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>xwad.cpp(1059): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>xwad.cpp(1064): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>xwad.cpp(1069): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>xwad.cpp(1076): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>xwad.cpp(1080): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>xwad.cpp(1084): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>xwad.cpp(1090): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>xwad.cpp(1094): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 d:\Programs\Visual C++\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>xwad.cpp(1125): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>xwad.cpp(1148): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>xwad.cpp(1170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Programs\Visual C++\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         Generating Code...
+       ComputeCustomBuildOutput:
+         Creating directory "D:\Protocol 7\bin\".
+       Link:
+         d:\Programs\Visual C++\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/xwad.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release\xwad.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/xwad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\xwad.lib" /MACHINE:X86 .\Release/goldsrc_standin.obj
+         .\Release/lbmlib.obj
+         .\Release/wadlib.obj
+         .\Release/xwad.obj
+         xwad-2005.vcxproj -> D:\Protocol 7\src\utils\xwad\.\Release\xwad.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release/xwad.exe;#1" /manifest .\Release\xwad.exe.intermediate.manifest
+       CustomBuildStep:
+         Description: Performing Custom Build Step
+         if exist ..\..\..\bin\"xwad".exe attrib -r ..\..\..\bin\"xwad".exe
+         copy "D:\Protocol 7\src\utils\xwad\.\Release\xwad.exe" ..\..\..\bin\"xwad".exe
+         if exist ..\..\..\bin\"xwad".pdb attrib -r ..\..\..\bin\"xwad".pdb
+         copy "D:\Protocol 7\src\utils\xwad\.\Release\xwad.exe" ..\..\..\bin\"xwad".pdb
+         
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file ".\Release\xwad.unsuccessfulbuild".
+         Touching ".\Release\xwad.lastbuildstate".
+     1>Done Building Project "D:\Protocol 7\src\utils\xwad\xwad-2005.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.71

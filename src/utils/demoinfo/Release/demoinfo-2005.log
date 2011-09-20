@@ -1,0 +1,43 @@
+﻿Build started 20/09/2011 09:35:03.
+     1>Project "D:\Protocol 7\src\utils\demoinfo\demoinfo-2005.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\demoinfo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\common /I..\..\public /I..\..\public\tier1 /I..\..\public\tier0 /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\tier1\characterset.cpp ..\common\cmdlib.cpp demoinfo.cpp ..\..\public\filesystem_helpers.cpp ..\..\public\filesystem_init.cpp ..\common\filesystem_tools.cpp ..\..\tier1\interface.cpp ..\..\tier1\KeyValues.cpp tooldemofile.cpp ..\..\tier1\utlbuffer.cpp ..\..\tier1\utlsymbol.cpp
+         characterset.cpp
+         cmdlib.cpp
+         demoinfo.cpp
+         filesystem_helpers.cpp
+         filesystem_init.cpp
+         filesystem_tools.cpp
+         interface.cpp
+         KeyValues.cpp
+         tooldemofile.cpp
+         utlbuffer.cpp
+         utlsymbol.cpp
+         Generating Code...
+       Link:
+         d:\Programs\Visual C++\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/demoinfo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\lib\public kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMTD /MANIFEST /ManifestFile:".\Release\demoinfo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/demoinfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\demoinfo.lib" /MACHINE:X86 .\Release/characterset.obj
+         .\Release/cmdlib.obj
+         .\Release/demoinfo.obj
+         .\Release/filesystem_helpers.obj
+         .\Release/filesystem_init.obj
+         .\Release/filesystem_tools.obj
+         .\Release/interface.obj
+         .\Release/KeyValues.obj
+         .\Release/tooldemofile.obj
+         .\Release/utlbuffer.obj
+         .\Release/utlsymbol.obj
+         ..\..\lib\public\tier0.lib
+         ..\..\lib\public\tier1.lib
+         ..\..\lib\public\tier2.lib
+         ..\..\lib\public\vstdlib.lib
+         "D:\Protocol 7\src\lib\public\tier1.lib"
+            Creating library .\Release\demoinfo.lib and object .\Release\demoinfo.exp
+     1>cmdlib.obj : error LNK2019: unresolved external symbol "void __cdecl MathLib_Init(float,float,float,int,bool,bool,bool,bool)" (?MathLib_Init@@YAXMMMH_N000@Z) referenced in function "void __cdecl CmdLib_InitCommandLine(int,char * *)" (?CmdLib_InitCommandLine@@YAXHPAPAD@Z)
+     1>.\Release/demoinfo.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "D:\Protocol 7\src\utils\demoinfo\demoinfo-2005.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.65

@@ -1,0 +1,18 @@
+﻿Build started 20/09/2011 09:35:02.
+     1>Project "D:\Protocol 7\src\utils\phonemeextractor\phonemeextractor-2005.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\Phonemeextractor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I../common /I../hlfaceposer /I../sapi51/include /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D PHONEMEEXTRACTOR_EXPORTS /D _WINDLL /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt extractor_utils.cpp ..\..\public\tier0\memoverride.cpp ..\..\public\phonemeconverter.cpp phonemeextractor.cpp ..\..\public\sentence.cpp
+         extractor_utils.cpp
+         memoverride.cpp
+         phonemeconverter.cpp
+         phonemeextractor.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\sphelper.h(46): fatal error C1083: Cannot open include file: 'atlbase.h': No such file or directory
+         sentence.cpp
+         Generating Code...
+     1>Done Building Project "D:\Protocol 7\src\utils\phonemeextractor\phonemeextractor-2005.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.83

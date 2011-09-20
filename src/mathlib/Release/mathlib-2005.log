@@ -1,0 +1,58 @@
+﻿Build started 20/09/2011 09:34:43.
+     1>Project "D:\Protocol 7\src\mathlib\mathlib-2005.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\mathlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\common /I..\public /I..\public\tier0 /I..\public\tier1 /I..\public\mathlib /Z7 /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 3dnow.cpp anorms.cpp bumpvects.cpp color_conversion.cpp halton.cpp IceKey.cpp imagequant.cpp lightdesc.cpp mathlib_base.cpp polyhedron.cpp powsse.cpp quantize.cpp randsse.cpp simdvectormatrix.cpp sparse_convolution_noise.cpp sse.cpp sseconst.cpp ssenoise.cpp vector.cpp vmatrix.cpp
+         3dnow.cpp
+         anorms.cpp
+         bumpvects.cpp
+         color_conversion.cpp
+         halton.cpp
+         IceKey.cpp
+         imagequant.cpp
+         lightdesc.cpp
+         mathlib_base.cpp
+         polyhedron.cpp
+         powsse.cpp
+         quantize.cpp
+         randsse.cpp
+         simdvectormatrix.cpp
+         sparse_convolution_noise.cpp
+         sse.cpp
+         sseconst.cpp
+         ssenoise.cpp
+         vector.cpp
+         vmatrix.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\Protocol 7\src\mathlib\.\Release\mathlib.lib) does not match the Library's OutputFile property value (D:\Protocol 7\src\lib\public\mathlib.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         d:\Programs\Visual C++\VC\bin\Lib.exe /OUT:"..\lib\public\mathlib.lib" /NOLOGO .\Release\3dnow.obj
+         .\Release\anorms.obj
+         .\Release\bumpvects.obj
+         .\Release\color_conversion.obj
+         .\Release\halton.obj
+         .\Release\IceKey.obj
+         .\Release\imagequant.obj
+         .\Release\lightdesc.obj
+         .\Release\mathlib_base.obj
+         .\Release\polyhedron.obj
+         .\Release\powsse.obj
+         .\Release\quantize.obj
+         .\Release\randsse.obj
+         .\Release\simdvectormatrix.obj
+         .\Release\sparse_convolution_noise.obj
+         .\Release\sse.obj
+         .\Release\sseconst.obj
+         .\Release\ssenoise.obj
+         .\Release\vector.obj
+         .\Release\vmatrix.obj
+         mathlib-2005.vcxproj -> D:\Protocol 7\src\mathlib\.\Release\mathlib.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Release\mathlib.unsuccessfulbuild".
+         Touching ".\Release\mathlib.lastbuildstate".
+     1>Done Building Project "D:\Protocol 7\src\mathlib\mathlib-2005.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.53

@@ -1,0 +1,121 @@
+﻿Build started 20/09/2011 09:35:02.
+     1>Project "D:\Protocol 7\src\utils\vrad\vrad_dll-2005.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\Vrad_dll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\common /I..\vmpi /I..\vmpi\mysql\mysqlpp\include /I..\vmpi\mysql\include /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D MPI /D PROTECTED_THINGS_DISABLE /D VRAD /D _WINDLL /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\public\bsptreedata.cpp ..\..\public\disp_common.cpp ..\..\public\disp_powerinfo.cpp disp_vrad.cpp imagepacker.cpp incremental.cpp leaf_ambient_lighting.cpp lightmap.cpp ..\..\public\loadcmdline.cpp ..\..\public\lumpfiles.cpp macro_texture.cpp ..\..\public\tier0\memoverride.cpp ..\common\mpi_stats.cpp mpivrad.cpp ..\common\MySqlDatabase.cpp ..\common\pacifier.cpp ..\common\physdll.cpp radial.cpp samplehash.cpp trace.cpp ..\common\utilmatlib.cpp vismat.cpp ..\common\vmpi_tools_shared.cpp vrad.cpp vrad_dispcoll.cpp vraddetailprops.cpp vraddisps.cpp vraddll.cpp vradstaticprops.cpp ..\..\public\zip_utils.cpp ..\common\bsplib.cpp ..\..\public\builddisp.cpp ..\..\public\chunkfile.cpp ..\common\cmdlib.cpp ..\..\public\dispcoll_common.cpp ..\common\map_shared.cpp ..\common\polylib.cpp ..\common\scriplib.cpp ..\common\threads.cpp ..\common\tools_minidump.cpp ..\..\public\collisionutils.cpp ..\..\public\filesystem_helpers.cpp ..\..\public\scratchpad3d.cpp ..\..\public\ScratchPadUtils.cpp
+         bsptreedata.cpp
+         disp_common.cpp
+         disp_powerinfo.cpp
+         disp_vrad.cpp
+         imagepacker.cpp
+         incremental.cpp
+         leaf_ambient_lighting.cpp
+         lightmap.cpp
+         loadcmdline.cpp
+         lumpfiles.cpp
+         macro_texture.cpp
+         memoverride.cpp
+         mpi_stats.cpp
+         mpivrad.cpp
+         MySqlDatabase.cpp
+         pacifier.cpp
+         physdll.cpp
+         radial.cpp
+         samplehash.cpp
+         trace.cpp
+         Generating Code...
+         Compiling...
+         utilmatlib.cpp
+         vismat.cpp
+         vmpi_tools_shared.cpp
+         vrad.cpp
+         vrad_dispcoll.cpp
+         vraddetailprops.cpp
+         vraddisps.cpp
+         vraddll.cpp
+         vradstaticprops.cpp
+         zip_utils.cpp
+         bsplib.cpp
+         builddisp.cpp
+         chunkfile.cpp
+         cmdlib.cpp
+         dispcoll_common.cpp
+         map_shared.cpp
+         polylib.cpp
+         scriplib.cpp
+         threads.cpp
+         tools_minidump.cpp
+         Generating Code...
+         Compiling...
+         collisionutils.cpp
+         filesystem_helpers.cpp
+         scratchpad3d.cpp
+         ScratchPadUtils.cpp
+         Generating Code...
+       Link:
+         d:\Programs\Visual C++\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\vrad_dll.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\lib\common /LIBPATH:..\..\lib\public ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmtd /MANIFEST:NO /DEBUG /PDB:".\Release\Vrad_dll.pdb" /MAP:".\Release\Vrad_dll.map" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\Vrad_dll.lib" /MACHINE:X86 /DLL .\Release\bsptreedata.obj
+         .\Release\disp_common.obj
+         .\Release\disp_powerinfo.obj
+         .\Release\disp_vrad.obj
+         .\Release\imagepacker.obj
+         .\Release\incremental.obj
+         .\Release\leaf_ambient_lighting.obj
+         .\Release\lightmap.obj
+         .\Release\loadcmdline.obj
+         .\Release\lumpfiles.obj
+         .\Release\macro_texture.obj
+         .\Release\memoverride.obj
+         .\Release\mpi_stats.obj
+         .\Release\mpivrad.obj
+         .\Release\MySqlDatabase.obj
+         .\Release\pacifier.obj
+         .\Release\physdll.obj
+         .\Release\radial.obj
+         .\Release\samplehash.obj
+         .\Release\trace.obj
+         .\Release\utilmatlib.obj
+         .\Release\vismat.obj
+         .\Release\vmpi_tools_shared.obj
+         .\Release\vrad.obj
+         .\Release\vrad_dispcoll.obj
+         .\Release\vraddetailprops.obj
+         .\Release\vraddisps.obj
+         .\Release\vraddll.obj
+         .\Release\vradstaticprops.obj
+         .\Release\zip_utils.obj
+         .\Release\bsplib.obj
+         .\Release\builddisp.obj
+         .\Release\chunkfile.obj
+         .\Release\cmdlib.obj
+         .\Release\dispcoll_common.obj
+         .\Release\map_shared.obj
+         .\Release\polylib.obj
+         .\Release\scriplib.obj
+         .\Release\threads.obj
+         .\Release\tools_minidump.obj
+         .\Release\collisionutils.obj
+         .\Release\filesystem_helpers.obj
+         .\Release\scratchpad3d.obj
+         .\Release\ScratchPadUtils.obj
+         ..\..\lib\public\bitmap.lib
+         ..\..\lib\public\mathlib.lib
+         ..\..\lib\public\raytrace.lib
+         ..\..\lib\public\tier0.lib
+         ..\..\lib\public\tier1.lib
+         ..\..\lib\public\tier2.lib
+         ..\..\lib\public\vmpi.lib
+         ..\..\lib\public\vstdlib.lib
+         ..\..\lib\public\vtf.lib
+         "D:\Protocol 7\src\lib\public\mathlib.lib"
+         "D:\Protocol 7\src\lib\public\tier1.lib"
+            Creating library .\Release\Vrad_dll.lib and object .\Release\Vrad_dll.exp
+         vrad_dll-2005.vcxproj -> D:\Protocol 7\src\utils\vrad\.\Release\Vrad_dll.dll
+       FinalizeBuildStatus:
+         Deleting file ".\Release\Vrad_dll.unsuccessfulbuild".
+         Touching ".\Release\Vrad_dll.lastbuildstate".
+     1>Done Building Project "D:\Protocol 7\src\utils\vrad\vrad_dll-2005.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:39.25

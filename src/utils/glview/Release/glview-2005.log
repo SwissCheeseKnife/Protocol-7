@@ -1,0 +1,20 @@
+﻿Build started 20/09/2011 09:35:13.
+     1>Project "D:\Protocol 7\src\utils\glview\glview-2005.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\Glview.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\common /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D PROTECTED_THINGS_DISABLE /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt glview.cpp ..\..\public\tier0\memoverride.cpp ..\common\cmdlib.cpp ..\..\public\filesystem_helpers.cpp ..\..\public\filesystem_init.cpp ..\common\filesystem_tools.cpp ..\common\physdll.cpp
+         glview.cpp
+     1>glview.cpp(10): fatal error C1083: Cannot open include file: 'gl/glaux.h': No such file or directory
+         memoverride.cpp
+         cmdlib.cpp
+         filesystem_helpers.cpp
+         filesystem_init.cpp
+         filesystem_tools.cpp
+         physdll.cpp
+         Generating Code...
+     1>Done Building Project "D:\Protocol 7\src\utils\glview\glview-2005.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.20

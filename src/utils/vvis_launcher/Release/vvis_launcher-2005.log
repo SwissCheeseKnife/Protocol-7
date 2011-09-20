@@ -1,0 +1,31 @@
+﻿Build started 20/09/2011 09:35:04.
+     1>Project "D:\Protocol 7\src\utils\vvis_launcher\vvis_launcher-2005.vcxproj" on node 9 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\Vvis_launcher.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\common /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Yc"StdAfx.h" /Fp"Debug/vvis_launcher.pch" /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\common /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\public\tier0\memoverride.cpp
+         memoverride.cpp
+         d:\Programs\Visual C++\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\common /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Yu"StdAfx.h" /Fp"Debug/vvis_launcher.pch" /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt vvis_launcher.cpp
+         vvis_launcher.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\Protocol 7\src\utils\vvis_launcher\.\Release\Vvis_launcher.exe) does not match the Linker's OutputFile property value (D:\Protocol 7\src\utils\vvis_launcher\Release\vvis.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Vvis_launcher) does not match the Linker's OutputFile property value (vvis). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         d:\Programs\Visual C++\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\vvis.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmtd /MANIFEST:NO /DEBUG /PDB:".\Release\Vvis_launcher.pdb" /MAP:".\Release\Vvis_launcher.map" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\Vvis_launcher.lib" /MACHINE:X86 .\Release\memoverride.obj
+         .\Release\StdAfx.obj
+         .\Release\vvis_launcher.obj
+         ..\..\lib\public\tier0.lib
+         ..\..\lib\public\tier1.lib
+         ..\..\lib\public\vstdlib.lib
+         "D:\Protocol 7\src\lib\public\tier1.lib"
+            Creating library .\Release\Vvis_launcher.lib and object .\Release\Vvis_launcher.exp
+         vvis_launcher-2005.vcxproj -> D:\Protocol 7\src\utils\vvis_launcher\.\Release\Vvis_launcher.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Release\Vvis_launcher.unsuccessfulbuild".
+         Touching ".\Release\Vvis_launcher.lastbuildstate".
+     1>Done Building Project "D:\Protocol 7\src\utils\vvis_launcher\vvis_launcher-2005.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.04
